@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desyn Hive | Creative Design Solutions</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Desyn Hive</h1>
+        <nav aria-label="Main Site Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work Showcase</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Design. Impress. Repeat.</h2>
+            <p class="tagline">We transform ideas into visually striking designs that leave a lasting impression.</p>
+            <a href="#contact" class="cta-button">Start Your Project</a>
+        </section>
+
+        <section id="about" class="colored-section">
+            <h2>About Us</h2>
+            <p>Desyn Hive is a full-service design studio dedicated to delivering exceptional visual experiences. We specialize in turning concepts into reality, blending creativity with strategic thinking. Our team believes in the power of design to inspire, engage, and connect. With every project, we aim to Design. Impress. Repeat, ensuring that our work not only meets expectations but consistently exceeds them.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>?? Graphic Design & Branding</h3>
+                    <p>Crafting unique brand identities, logos, and visuals that make a statement.</p>
+                </div>
+                <div class="service-card">
+                    <h3>?? Web Design & Development</h3>
+                    <p>Building responsive, modern websites that engage visitors and drive results.</p>
+                </div>
+                <div class="service-card">
+                    <h3>?? Social Media & Marketing</h3>
+                    <p>Designing eye-catching posts, banners, and promotional content that captures attention.</p>
+                </div>
+                <div class="service-card">
+                    <h3>?? Custom Creative Solutions</h3>
+                    <p>Offering tailored design services to meet your specific needs and goals.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="colored-section">
+            <h2>Selected Work Showcase</h2>
+            <p class="section-description">A glimpse into the successful projects we've delivered for our clients across various industries.</p>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <h3>Tech Startup Rebranding</h3>
+                    <p>Comprehensive identity overhaul, focusing on minimalism and user-centric design principles.</p>
+                    <span class="project-tag">Branding</span> <span class="project-tag">UI/UX</span>
+                </div>
+                <div class="showcase-item">
+                    <h3>E-commerce Platform Launch</h3>
+                    <p>Design and front-end development of a high-conversion, responsive online store.</p>
+                    <span class="project-tag">Web Dev</span> <span class="project-tag">E-commerce</span>
+                </div>
+                <div class="showcase-item">
+                    <h3>Annual Report Design</h3>
+                    <p>Visually rich print and digital annual report, simplifying complex data through effective infographics.</p>
+                    <span class="project-tag">Print Design</span> <span class="project-tag">Infographics</span>
+                </div>
+                <div class="showcase-item">
+                    <h3>Social Media Strategy</h3>
+                    <p>Creation of a 90-day content calendar and template library for sustained online engagement.</p>
+                    <span class="project-tag">Social Media</span> <span class="project-tag">Strategy</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to bring your vision to life? Get in touch with us today!</p>
+
+            <form id="contactForm" action="/submit-contact-form" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <div class="contact-info">
+                <p>Email: <a href="mailto:mohomadzakey@gmail.com">mohomadzakey@gmail.com</a></p>
+                <p>Phone: <a href="tel:+94763567698">+94 76 356 7698</a></p>
+                <p>Instagram: <a href="https://instagram.com/desynhive" target="_blank" rel="noopener noreferrer">@desynhive</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Desyn Hive. All rights reserved.</p>
+        <p>Design. Impress. Repeat.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
